@@ -1,0 +1,59 @@
+body{
+    /* background-color: rgb(244, 247, 248); */
+    background-color: whitesmoke;
+}
+.container{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navlogo button{
+    border:2px solid rgb(23, 136, 206);
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 34px;
+    transition: all 0.3s;
+}
+.navlogo button:hover{
+    transform:scaleX(1.1);
+}
+.navlogo a{
+    color: black;
+}
+.navlinks{
+    font-size: 22px;
+}
+.navlinks ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 1rem;
+}
+.navlinks ul li button{
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+    /* border-bottom: 2px solid rgb(23, 136, 206) ; */
+    transition: all 0.3s;
+}
+.navlinks ul li button:hover{
+   box-shadow: 0px 0px 6px 2px rgb(23, 136, 206);
+}
+
+#home{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .content p{
+    padding: 0px 200px;
+}
+
+/*-----Modal popup center from Services tab---------*/
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
